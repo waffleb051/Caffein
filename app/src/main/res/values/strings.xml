@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Caffeine AfterBurn</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="WelSplash">Welcome to Caffeine Afterburn!</string>
+    <string name="WelWrite">This app is designed to show how much time caffeine will take to enter your blood stream, how long the
+    caffeine is in your bloodstream and the half-life of the caffeine.</string>
 </resources>
