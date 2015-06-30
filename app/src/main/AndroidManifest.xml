@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ChooseYourLevel"
+            android:label="@string/title_activity_choose_your_level"
+            android:parentActivityName=".StartPage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nerdsweaponofchoice.caffeineafterburn.StartPage" />
+        </activity>
     </application>
 
 </manifest>
