@@ -4,4 +4,9 @@
     <string name="WelSplash">Welcome to Caffeine Afterburn!</string>
     <string name="WelWrite">This app is designed to show how much time caffeine will take to enter your blood stream, how long the
     caffeine is in your bloodstream and the half-life of the caffeine.</string>
+    <string name="EULA">EULA</string>
+    <string name="LongEula">EULA Goes here.....need to figure this out.....</string>
+    <string name="AcceptRadial">I agree and accept the EULA</string>
+    <string name="Accept">Accept</string>
+    <string name="Decline">Decline</string>
 </resources>

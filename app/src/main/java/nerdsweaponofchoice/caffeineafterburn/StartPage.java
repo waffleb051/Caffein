@@ -4,6 +4,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RadioButton;
 
 
 public class StartPage extends ActionBarActivity {
@@ -12,9 +15,18 @@ public class StartPage extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
-    }
 
-    @Override
+        /* Variables */
+        Button Accept = (Button)findViewById(R.id.Accept);
+        Button Decline = (Button)findViewById(R.id.Decline);
+        RadioButton AcceptR = (RadioButton)findViewById(R.id.AcceptRadio);
+
+        Accept.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View V){}});
+
+        }//End onCreate
+
+        @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_start_page, menu);
