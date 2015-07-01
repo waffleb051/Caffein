@@ -1,40 +1,42 @@
 package nerdsweaponofchoice.caffeineafterburn;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Intent;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RadioButton;
 
 
 public class StartPage extends ActionBarActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
 
-        /* Variables */
-        Button Accept = (Button)findViewById(R.id.Accept);
-        Button Decline = (Button)findViewById(R.id.Decline);
-        RadioButton AcceptR = (RadioButton)findViewById(R.id.AcceptRadio);
+        //Variables
+        Button Decline = (Button) findViewById(R.id.Decline);
 
-        AcceptR.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View V){
-
-            }});
-
-        Accept.setOnClickListener(new Button.OnClickListener() {
-            public void onClick(View V){}});
 
         Decline.setOnClickListener(new Button.OnClickListener() {
-            public void onClick(View V) {
+            public void onClick (View v) {
             }
         });
 
         }//End onCreate
+
+    protected void onClick1(View v){
+
+    }//end onclick1
+
+    protected void onClick10(View view){
+        Intent A = new Intent(this, ChooseYourLevel.class);
+        startActivity(A);
+    }
 
         @Override
     public boolean onCreateOptionsMenu(Menu menu) {
